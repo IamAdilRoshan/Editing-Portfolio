@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback, Fragment } from "react"; // v4
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import showreelThumbImg from "@/imports/Showreel_2.png";
 import faviconSrc from "@/imports/Cape_bgRemoved_-1.png";
 import logoGolfBusters from "@/imports/golfbusters.jpg";
@@ -2048,6 +2049,7 @@ export default function App() {
           </span>
         </div>
       </section>
+      <SpeedInsights />
     </div>
   );
 }
